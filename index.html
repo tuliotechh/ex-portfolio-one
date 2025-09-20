@@ -3,23 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="destaque-titulo">um Front-end de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Me chamo Marco Tulio, sou desenvolvedor Front-end com especialidade em React, HTML e CSS.
             Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <div class="apresentacao__conteudo__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/mtuliou/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/tuliotechh">Gihub</a>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__titulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://github.com/tuliotechh">
+                    <img src="assets/github.png" alt="icone do github">
+                    Github
+                </a>
+                <a class="apresentacao__links__link" href="https://linkedin.com/in/mtuliou">
+                    <img src="assets/linkedin.png" alt="icone do linkedin">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__link" href="https://www.twitch.tv/eotulin">
+                    <img src="assets/twitch.png" alt="icone dda twitch">
+                    Twitch
+                </a>
             </div>
         </section>
-        <img src="imgex.png" alt="imagem de referencia">
+        <img src="assets/imgex.png" alt="imagem de referencia">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Marco Tulio</p>
+    </footer>
 </body>
 </html>
